@@ -32,8 +32,10 @@ function App() {
       <div className={'whole-page-container'}>
         <TemplateSelector/>
         <div className={"rightside-wrapper"}>
-          <h1>Welcome to the Signmaker</h1>
-          <h2>Select a Template to Begin</h2>
+          <header>
+            <h1>Custom Sign Maker</h1>
+            <h2>Select a Template to Begin</h2>
+          </header>
           {/* router stuff goes here */}
           <Router>
             <Switch>
