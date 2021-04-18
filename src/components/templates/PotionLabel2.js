@@ -159,7 +159,7 @@ class PotionLabel2 extends Template{
         return(
             <div className="big-box">
                 <div className="sign-container">
-                    <h1>Potion Label 1</h1>
+                    <h1>Potion Label 2</h1>
                     <div className="sign" style={this.signStyle()}>
                         <div className={"signtext-limiter"} style={this.outerstyle1()}>
                             {/* <div className={"signtext"} style={this.parseFontData("box1")}>

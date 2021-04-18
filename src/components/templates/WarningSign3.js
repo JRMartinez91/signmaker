@@ -159,7 +159,7 @@ class WarningSign3 extends Template{
         return(
             <div className="big-box">
                 <div className="sign-container">
-                    <h1>Warning Sign</h1>
+                    <h1>Warning Sign 3</h1>
                     <div className="sign" style={this.signStyle()}>
                         <div className={"signtext-limiter"} style={this.outerstyle1()}>
                             <div className={"signtext"} style={this.parseFontData("box1")}>
