@@ -62,7 +62,47 @@ class WarningSign4 extends Template{
                     fontFamily: "'Roboto',sans-serif"
                 }
             },
-            default:{}
+            default:{
+                box1:{
+                    text:"DANGER",
+                    size:"90",
+                    color:"#ffffff",
+                    letterSpacing:"0",
+                    scalex:"1",
+                    scaley:"1",
+                    b:false,
+                    i:false,
+                    u:false,
+                    textAlign: "center",
+                    fontFamily: "'Roboto',sans-serif"
+                },
+                box2:{
+                    text:"HIGH VOLTAGE",
+                    size:"90",
+                    color:"#000000",
+                    letterSpacing:"0",
+                    scalex:"1",
+                    scaley:"1",
+                    b:true,
+                    i:false,
+                    u:false,
+                    textAlign: "center",
+                    fontFamily: "'Roboto',sans-serif"
+                },
+                box3:{
+                    text:"NO ENTRY",
+                    size:"90",
+                    color:"#C41C1C",
+                    letterSpacing:"0",
+                    scalex:"1",
+                    scaley:"1",
+                    b:true,
+                    i:false,
+                    u:true,
+                    textAlign: "center",
+                    fontFamily: "'Roboto',sans-serif"
+                }
+            }
         }
     }
 

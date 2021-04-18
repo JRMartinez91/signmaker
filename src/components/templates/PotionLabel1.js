@@ -49,7 +49,34 @@ class PotionLabel1 extends Template{
                     fontFamily: "'Alegreya', serif"
                 }
             },
-            default:{}
+            default:{
+                box1:{
+                    text:"Dr.Rag-n-Bone's",
+                    size:"80",
+                    color:"#57280F",
+                    letterSpacing:"0",
+                    scalex:"1",
+                    scaley:"1",
+                    b:false,
+                    i:false,
+                    u:false,
+                    textAlign: "center",
+                    fontFamily: "'Alegreya', serif"
+                },
+                box2:{
+                    text:"Miracle Tonic",
+                    size:"80",
+                    color:"#57280F",
+                    letterSpacing:"0",
+                    scalex:"1",
+                    scaley:"1",
+                    b:false,
+                    i:false,
+                    u:false,
+                    textAlign: "center",
+                    fontFamily: "'Alegreya', serif"
+                }
+            }
         }
     }
 

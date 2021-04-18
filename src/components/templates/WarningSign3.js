@@ -62,7 +62,47 @@ class WarningSign3 extends Template{
                     fontFamily: "'Roboto',sans-serif"
                 }
             },
-            default:{}
+            default:{
+                box1:{
+                    text:"CAUTION",
+                    size:"125",
+                    color:"#f5f17f",
+                    letterSpacing:"0",
+                    scalex:"1",
+                    scaley:"1.25",
+                    b:false,
+                    i:false,
+                    u:false,
+                    textAlign: "center",
+                    fontFamily: "'Roboto',sans-serif"
+                },
+                box2:{
+                    text:"HEAVY",
+                    size:"90",
+                    color:"#000000",
+                    letterSpacing:"0",
+                    scalex:"1",
+                    scaley:"1",
+                    b:false,
+                    i:false,
+                    u:false,
+                    textAlign: "center",
+                    fontFamily: "'Roboto',sans-serif"
+                },
+                box3:{
+                    text:"MACHINERY",
+                    size:"90",
+                    color:"#000000",
+                    letterSpacing:"0",
+                    scalex:"1",
+                    scaley:"1",
+                    b:false,
+                    i:false,
+                    u:false,
+                    textAlign: "center",
+                    fontFamily: "'Roboto',sans-serif"
+                }
+            }
         }
     }
 

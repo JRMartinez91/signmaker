@@ -23,21 +23,21 @@ class PotionLabel2 extends Template{
             name:"Potion Label 2",
             text:{
                 box1:{
-                    text:"Dr.Rag-n-Bone's",
-                    size:"80",
+                    text:"Lord Fantastic's Elixir",
+                    size:"40",
                     color:"#57280F",
-                    letterSpacing:"0",
+                    letterSpacing:"2.5",
                     scalex:"1",
                     scaley:"1",
-                    b:false,
+                    b:true,
                     i:false,
                     u:false,
                     textAlign: "center",
-                    fontFamily: "'Alegreya', serif"
+                    fontFamily: "'Cinzel', serif"
                 },
                 box2:{
-                    text:"Miracle Tonic",
-                    size:"80",
+                    text:"Cures all Sickness, Guaranteed!",
+                    size:"50",
                     color:"#57280F",
                     letterSpacing:"0",
                     scalex:"1",
@@ -49,8 +49,36 @@ class PotionLabel2 extends Template{
                     fontFamily: "'Alegreya', serif"
                 },
                 box3:{
-                    text:"Miracle Tonic",
-                    size:"80",
+                    text:"(May contain every poison known to mankind)",
+                    size:"20",
+                    color:"#57280F",
+                    letterSpacing:"0",
+                    scalex:"1",
+                    scaley:"1",
+                    b:false,
+                    i:true,
+                    u:false,
+                    textAlign: "center",
+                    fontFamily: "'BioRhyme', serif"
+                }
+            },
+            default:{
+                box1:{
+                    text:"Lord Fantastic's Elixir",
+                    size:"40",
+                    color:"#57280F",
+                    letterSpacing:"2.5",
+                    scalex:"1",
+                    scaley:"1",
+                    b:true,
+                    i:false,
+                    u:false,
+                    textAlign: "center",
+                    fontFamily: "'Cinzel', serif"
+                },
+                box2:{
+                    text:"Cures all Sickness, Guaranteed!",
+                    size:"50",
                     color:"#57280F",
                     letterSpacing:"0",
                     scalex:"1",
@@ -60,9 +88,21 @@ class PotionLabel2 extends Template{
                     u:false,
                     textAlign: "center",
                     fontFamily: "'Alegreya', serif"
+                },
+                box3:{
+                    text:"(May contain every poison known to mankind)",
+                    size:"20",
+                    color:"#57280F",
+                    letterSpacing:"0",
+                    scalex:"1",
+                    scaley:"1",
+                    b:false,
+                    i:true,
+                    u:false,
+                    textAlign: "center",
+                    fontFamily: "'BioRhyme', serif"
                 }
-            },
-            default:{}
+            }
         }
     }
 
