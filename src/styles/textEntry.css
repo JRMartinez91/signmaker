@@ -1,0 +1,27 @@
+.text-entry-container{
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.button-box{
+    border: 1px solid grey;
+    width:fit-content;
+    margin: 4px;
+    padding: 4px;
+}
+
+button{
+    background-color: rgb(84, 97, 114);
+    color:white;
+    border:1px solid grey;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+input{
+    max-width: 50px;
+}
+
+.manual-text-input{
+    width: 180px;
+    max-width: 180px;
+}

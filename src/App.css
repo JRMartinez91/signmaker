@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,89 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* h1{
+  margin: 0 auto;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&family=BioRhyme:wght@400;700&family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: 'Alegreya', serif;
+font-family: 'BioRhyme', serif;
+font-family: 'Cardo', serif;
+font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bangers&family=Cinzel:wght@400;700&family=Dancing+Script:wght@400;700&display=swap');
+/*font-family: 'Amatic SC', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;*/
+
+body{
+  color:white;
+  background-color: rgb(65, 76, 90);
 }
+
+.whole-page-container{
+  display:flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.rightside-wrapper{
+  border: 2px solid grey;
+  flex-grow: 1;
+  display: block;
+}
+
+/* contains the sign and text widgets but not the page title */
+.big-box{
+  display:flex;
+}
+
+.sign-container{
+  flex-grow: 1;
+}
+
+/* Image Renderer */
+.render-button-wrapper{
+  border: 2px solid grey;
+  padding: 5px;
+  height: 27px;
+  bottom:10px;
+  right:10px;
+}
+
+.render-button-wrapper button{
+  float: right;
+  font-size: 20px;
+}
+
+.modal-background{
+  position: fixed;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(32, 41, 41, 0.6);
+  display:none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-window{
+  /* width:800px;
+  height:600px; */
+  width: fit-content;
+  height: fit-content;
+  border: 2px solid black;
+  background-color: teal;
+  /* overflow:scroll; */
+  color:white;
+  font-size: 16px;
+  text-align: center;
+}
+
+#rendered-sign{
+  margin: 20px;
+}
+
